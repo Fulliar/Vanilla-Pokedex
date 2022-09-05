@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#b24592, #f15f79);
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+}
+
+.mainHeader{
+    margin-top: 30px;
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+
+.subHeader{
+    margin-top: 30px;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+input,
+button{
+    background-color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px
+}
+
+input{
+font-weight: bold;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.poke-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0.5 rem;
+}
+
+.poke-box{
+    margin: 13px 10px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.poke-box img{
+    margin: 10px 0;
+    width: 80%;
+}
+
+.poke-box h4{
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.poke-box p{
+    margin: auto;
+}
